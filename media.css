@@ -1,0 +1,103 @@
+@media (max-width:750px){
+    #part{
+        display: flex;
+        flex-direction: column;
+    }
+    #part1{
+        padding-top: 30px;
+        width: 100%;
+        height: 50%;
+    }
+    #part2{
+        padding-top: 30px;
+        width: 100%;
+        height: 50%;
+    }
+    #whole{
+        flex-direction: column;
+    }
+    #one{
+        width: 100%;
+        text-align: left;
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    #two{
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #name
+    {
+        flex-direction:column;
+        align-items: center;
+    }
+    #Me{
+        width: 100%;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    #pic{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #Me>h1{
+        padding-top: 10px;
+        
+    }
+    progress[value] {
+        --w: 96%; /* the width*/
+        --color:#4887DC;
+        --background: #E9ECEF; /* the background color */
+      
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: none;
+        width: var(--w);
+        margin: 0 0px;
+        border-radius: 10em;
+        background: var(--background);
+      }
+      progress[value]::-webkit-progress-bar {
+        border-radius: 10em;
+        background: var(--background);
+      }
+      progress[value]::-webkit-progress-value {
+        border-radius: 10em;
+        background: var(--color);
+      }
+      progress[value]::-moz-progress-bar {
+        border-radius: 10em;
+        background: var(--color);
+      }
+      #part2>
+    progress[value] {
+        --w: 96%; /* the width*/
+        --color:#37BC9B;
+        --background: #E9ECEF; /* the background color */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: none;
+        width: var(--w);
+        margin: 0 0px;
+        border-radius: 10em;
+        background: var(--background);
+      }
+      progress[value]::-webkit-progress-bar {
+        border-radius: 10em;
+        background: var(--background);
+      }
+      progress[value]::-webkit-progress-value {
+        border-radius: 10em;
+        background: var(--color);
+      }
+      progress[value]::-moz-progress-bar {
+        border-radius: 10em;
+        background: var(--color);
+      }
+}
